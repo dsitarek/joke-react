@@ -1,6 +1,38 @@
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
 @import 'globals';
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
-  background-color: $favColor !important;
+  background-color: rgb(54, 54, 54) !important;
 }
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.joke-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black !important;
+  margin-top: 10em;
+  min-width: 50em;
+  min-height: 20em;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background-image: linear-gradient(rgb(185, 185, 185),rgb(99, 98, 98));
+  overflow-wrap: break-word;
+  padding: 0 1em 0 1em;
+
+}
+
+.joke-container h3 {
+  position: absolute;
+  margin-bottom: 15%;
+  font-family: 'Press Start 2P';
+  background: -webkit-linear-gradient(rgb(3, 182, 3), rgb(56, 126, 255));
+  background-clip: text;
+  color: transparent;
+}
+
