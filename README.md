@@ -1,4 +1,6 @@
-# Got Jokes
+# Got Jokes [![Netlify Status](https://api.netlify.com/api/v1/badges/4c157d88-950b-428c-b23e-4bff82194aab/deploy-status)](https://app.netlify.com/sites/musing-banach-4ddc33/deploys)
+
+[Deployed Site](https://djs-react-jokes.netlify.app/)
 
 ## Joke Generator
 
